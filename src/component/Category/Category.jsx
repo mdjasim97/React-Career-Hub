@@ -1,7 +1,7 @@
-import React from 'react';
 
-const Catagory = ({catagory}) => {
-    const {logo, category_name, availability} = catagory
+
+const Category = ({category}) => {
+    const {logo, category_name, availability} = category
     // console.log(catagory)
     return (
         <div>
@@ -16,4 +16,4 @@ const Catagory = ({catagory}) => {
     );
 };
 
-export default Catagory;
+export default Category;
